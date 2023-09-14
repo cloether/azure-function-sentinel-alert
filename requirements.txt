@@ -1,0 +1,6 @@
+# Contains list of Python packages the system installs when publishing to Azure.
+#
+# Do not include azure-functions-worker
+# It may conflict with the Azure Functions platform
+
+azure-functions

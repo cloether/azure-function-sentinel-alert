@@ -1,0 +1,17 @@
+# .funcignore
+#
+# Declares files that shouldn't get published to Azure.
+#
+# Usually, this file contains .vscode/ to ignore your editor setting,
+# .venv/ to ignore local Python virtual environment, tests/ to ignore
+# test cases, and local.settings.json to prevent local app settings
+# being published.
+
+.git*
+.idea
+.vscode
+.venv
+test
+local.settings.json
+Makefile
+README.md

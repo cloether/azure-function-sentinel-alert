@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/proxies.json",
+  "proxies": {
+    "sentinel-test-function-proxy": {
+      "disabled": true,
+      "matchCondition": {
+        "methods": [
+          "GET"
+        ],
+        "route": "/api/sentinel-test-function/get"
+      }
+    }
+  }
+}
